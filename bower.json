@@ -1,0 +1,23 @@
+{
+  "name": "firefly-card-tray",
+  "description": "description goes here",
+  "main": "firefly-card-tray.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0"
+  },
+  "devDependencies": {
+    "paper-fab": "PolymerElements/paper-fab#^2.1.0",
+    "paper-button": "PolymerElements/paper-button#^2.1.1",
+    "paper-dialog": "PolymerElements/paper-dialog#^2.1.1",
+    
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "iron-flex-layout": "^2.0.3",
+
+
+    "polymer": "^2.0.0"
+  }
+}
