@@ -1,4 +1,4 @@
-<script>
+
 
 	/**
 	 * This behavior is implemented by all dialogs.
@@ -6,7 +6,7 @@
 	 * @polymerMixin AspDialogMixin
 	 * @mixinFunction 
 	 */
-	const AspDialogMixin = (superclass) => class extends superclass {
+	export const AspDialogMixin = (superclass) => class extends superclass {
 		// constructor(){
 		// 	super();
 		// }
@@ -48,4 +48,3 @@
 		
 	}
 
-</script>
