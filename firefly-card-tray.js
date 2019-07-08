@@ -1,13 +1,16 @@
 import { PolymerElement,html } from './node_modules/@polymer/polymer/polymer-element.js';
+import {AspFireTrayMixin} from './firefly-tray-mixin.js';
+import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
+import {AspSecurableMixin} from './aspen_components/aspen-securable-mixin.js';
+
 import './node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
 import './node_modules/@polymer/paper-fab/paper-fab.js';
-import './aspen_components/asp-icons.js';
-import {AspSecurableMixin} from './aspen_components/asp-securable-mixin.js';
-import './aspen_components/asp-delete-dialog.js';
-import {AspFireTrayMixin} from './asp-fire-tray-mixin.js';
-import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
+
+import './aspen_components/aspen-icons.js';
+import './aspen_components/firefly-delete-dialog.js';
+
 /**
- * `asp-fire-tray` This component is used to render a collection of cards. Each card must have the "card" CSS class,
+ * `firefly-tray` This component is used to render a collection of cards. Each card must have the "card" CSS class,
     and there must be a paper-dialog that uses the "detail-dialog" class.
  *
  * @summary ShortDescription.
@@ -48,7 +51,7 @@ class AspFireTray extends AspSecurableMixin(AspFireTrayMixin(PolymerElement)) {
 	
 		<slot select=".detail-dialog"></slot>
 		
-		<asp-delete-dialog></asp-delete-dialog>
+		<firefly-delete-dialog></firefly-delete-dialog>
         `;
     }
 
