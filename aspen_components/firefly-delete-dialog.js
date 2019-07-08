@@ -3,9 +3,9 @@ import '../node_modules/@polymer/paper-button/paper-button.js';
 import { PolymerElement } from '../node_modules/@polymer/polymer/polymer-element.js';
 import '../node_modules/@polymer/paper-dialog-behavior/paper-dialog-shared-styles.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
-import {AspDialogMixin} from './asp-dialog-mixin'
+import {AspDialogMixin} from './aspen-dialog-mixin'
 /**
- * `asp-delete-dialog` This component allows the user to delete a doctype from the database.
+ * `firefly-delete-dialog` This component allows the user to delete a doctype from the database.
  *
  * @summary ShortDescription.
  * @customElement
@@ -17,7 +17,7 @@ class AspDeleteDialog extends AspDialogMixin(PolymerElement) {
      * String providing the tag name to register the element under.
      */
     static get is() {
-				return 'asp-delete-dialog';
+				return 'firefly-delete-dialog';
     }
 
     /**
