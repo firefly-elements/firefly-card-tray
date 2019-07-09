@@ -7,7 +7,7 @@ import { FlattenedNodesObserver } from './node_modules/@polymer/polymer/lib/util
  * @polymerMixin
  * @mixinFunction
  */
-export const AspFireTrayMixin = (superclass) => class extends superclass {
+export const FireflyTrayMixin = (superclass) => class extends superclass {
 
 
 		static get properties(){

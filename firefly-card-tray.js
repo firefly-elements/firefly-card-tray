@@ -4,7 +4,7 @@ import './node_modules/@polymer/paper-fab/paper-fab.js';
 import './aspen_components/asp-icons.js';
 import {AspSecurableMixin} from './aspen_components/asp-securable-mixin.js';
 import './aspen_components/asp-delete-dialog.js';
-import {AspFireTrayMixin} from './asp-fire-tray-mixin.js';
+import {FireflyTrayMixin} from './firefly-tray-mixin';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 /**
  * `asp-fire-tray` This component is used to render a collection of cards. Each card must have the "card" CSS class,
@@ -15,7 +15,7 @@ import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
  * @polymer
  * @extends {Polymer.Element}
  */
-class AspFireTray extends AspSecurableMixin(AspFireTrayMixin(PolymerElement)) {
+class FireflyCardTray extends AspSecurableMixin(FireflyTrayMixin(PolymerElement)) {
 
     static get template(){
         return html `
@@ -85,4 +85,4 @@ class AspFireTray extends AspSecurableMixin(AspFireTrayMixin(PolymerElement)) {
 
 }
 
-window.customElements.define(AspFireTray.is, AspFireTray);
+window.customElements.define(FireflyCardTray.is, FireflyCardTray);
