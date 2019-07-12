@@ -10,6 +10,7 @@
   },
   "main": "firefly-card-tray.js",
   "dependencies": {
+    "@polymer/iron-list": "^3.0.2",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {

@@ -1,6 +1,7 @@
-# \<firefly-card-tray\>
+# <firefly-card-tray\>
 
-description goes here
+This component is used to render a collection of cards. Each card must have the "card" CSS class,
+and there must be a paper-dialog that uses the "detail-dialog" class
 
 ## Install the Polymer-CLI
 
