@@ -3,7 +3,7 @@ import '@polymer/paper-button/paper-button.js';
 import { PolymerElement } from '@polymer/polymer/polymer-element.js';
 import '@polymer/paper-dialog-behavior/paper-dialog-shared-styles.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
-import {AspDialogMixin} from './aspen_components/aspen-dialog-mixin'
+import {AspenDialogMixin} from './aspen-dialog-mixin'
 /**
  * `firefly-delete-dialog` This component allows the user to delete a doctype from the database.
  *
@@ -12,7 +12,7 @@ import {AspDialogMixin} from './aspen_components/aspen-dialog-mixin'
  * @polymer
  * @extends {Polymer.Element}
  */
-class FireflyDeleteDialog extends AspDialogMixin(PolymerElement) {
+class FireflyDeleteDialog extends AspenDialogMixin(PolymerElement) {
     /**
      * String providing the tag name to register the element under.
      */

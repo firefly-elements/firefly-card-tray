@@ -1,14 +1,14 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
 import '@polymer/paper-fab/paper-fab.js';
-import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 
-
-import './aspen_components/aspen-icons.js';
-import { AspSecurableMixin } from './aspen_components/aspen-securable-mixin.js';
+import './aspen-icons.js';
+import { AspenSecurableMixin } from '@aspen-elements/aspen-securable-mixin';
 import './firefly-delete-dialog';
 import { FireflyTrayMixin } from './firefly-tray-mixin';
 import '@polymer/iron-list/iron-list.js';
+import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
+
 
 /**
  * `firefly-tray` This component is used to render a collection of cards. Each card must have the "card" CSS class,
@@ -19,7 +19,7 @@ import '@polymer/iron-list/iron-list.js';
  * @polymer
  * @extends {Polymer.Element}
  */
-class FireflyCardTray extends AspSecurableMixin(FireflyTrayMixin(PolymerElement)) {
+class FireflyCardTray extends AspenSecurableMixin(FireflyTrayMixin(PolymerElement)) {
 
 	static get template() {
 		return html`
