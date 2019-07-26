@@ -1,12 +1,12 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
 import '@polymer/paper-fab/paper-fab.js';
-
-import './aspen-icons.js';
-import { AspenSecurableMixin } from '@aspen-elements/aspen-securable-mixin';
-import './firefly-delete-dialog';
-import { FireflyTrayMixin } from './firefly-tray-mixin';
 import '@polymer/iron-list/iron-list.js';
+import './aspen-icons.js';
+
+import { AspenSecurableMixin } from '@aspen-elements/aspen-securable-mixin';
+import '@firefly-elements/firefly-delete-dialog'
+import { FireflyTrayMixin } from './firefly-tray-mixin';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 
 

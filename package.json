@@ -11,6 +11,7 @@
   "main": "firefly-card-tray.js",
   "dependencies": {
     "@aspen-elements/aspen-securable-mixin": "^0.5.1",
+    "@firefly-elements/firefly-delete-dialog": "^0.5.0",
     "@polymer/iron-list": "^3.0.2",
     "@polymer/polymer": "^3.0.0"
   },
