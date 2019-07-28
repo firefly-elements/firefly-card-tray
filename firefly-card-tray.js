@@ -6,7 +6,7 @@ import '@aspen-elements/aspen-icons';
 
 import { AspenSecurableMixin } from '@aspen-elements/aspen-securable-mixin';
 import '@firefly-elements/firefly-delete-dialog';
-import { FireflyTrayMixin } from './firefly-tray-mixin';
+import { FireflyTrayMixin } from '@firefly-elements/firefly-tray-mixin';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 
 
