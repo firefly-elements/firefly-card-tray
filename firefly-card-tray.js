@@ -37,6 +37,7 @@ class FireflyCardTray extends AspenSecurableMixin(PolymerElement) {
           position: fixed;
           bottom: var(--paper-fab-bottom);
           right: var(--paper-fab-right);
+          z-index: 200;
         }
       </style>
 
