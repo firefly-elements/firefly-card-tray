@@ -98,6 +98,13 @@ class FireflyCardTray extends AspenSecurableMixin(PolymerElement) {
     let dialog = assignedNodes[0];
     console.log(dialog);
     dialog.newOpen();
+
+     this.dispatchEvent(
+      new CustomEvent('dialog-opened', {
+        bubbles: true,
+        composed: true,
+      })
+    );
   }
 
   /**
