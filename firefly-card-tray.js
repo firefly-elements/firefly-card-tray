@@ -31,6 +31,7 @@ class FireflyCardTray extends AspenSecurableMixin(PolymerElement) {
         .tray {
           @apply --layout-horizontal;
           @apply --layout-wrap;
+          padding: 15px;
         }
 
         paper-fab {
